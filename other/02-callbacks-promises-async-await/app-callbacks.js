@@ -18,8 +18,8 @@ function loginUser(username, password, callback) {
 };
 function getUserVideos(username, callback) {
     setTimeout(() => {
-        callback(['video1', 'video2', 'video3']);
-    }, 1000);
+          callback(['video1', 'video2', 'video3']);
+    }, 2000);
 };
 function getVideoDetails(video, callback) {
     setTimeout(() => {

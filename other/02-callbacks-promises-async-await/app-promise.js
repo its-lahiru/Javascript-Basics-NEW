@@ -21,10 +21,10 @@ function getVideoDetails(video) {
     });
 }
 
-// loginUser('lahirus250', 1234)
-//     .then(user => getUserVideos(user.username))
-//     .then(videos => getVideoDetails(videos[0]))
-//     .then(details => console.log(details));
+loginUser('lahirus250', 1234)
+    .then(user => getUserVideos(user.username))
+    .then(videos => getVideoDetails(videos[0]))
+    .then(details => console.log(details));
 
 // console.log('end');
 
